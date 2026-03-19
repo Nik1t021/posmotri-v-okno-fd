@@ -98,7 +98,7 @@ body{
 
 .result__video-container{
   max-width: 711px;
-  max-height: 386px;
+  height: 386px;           
   position: relative;
   margin-top: 78px;
 }
@@ -238,13 +238,14 @@ body{
   box-sizing: content-box;
   height: 100%;
   margin-top: 20px;  
+  padding-top: 5px;      
 }
 
 /*карточка превью видео*/
 
 .content__list-item{
-  padding-left: 1px;
-  padding-right: 1px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 .content__card-link{
@@ -259,7 +260,7 @@ body{
 }
 
 .content__list-item:not(:last-of-type){
-  margin-bottom: 29px;
+  margin-bottom: 26px;  
 }
 
 .content__card-link:focus-within:not(:active){
@@ -280,22 +281,18 @@ body{
   justify-content: space-between;
 }
 
-.content__video-card-description-container{
-  padding-top: 2px;
-  padding-left: 2px;
-}
-
 .content__video-card-title{
   font-family: 'Oswald', Arial, sans-serif;
+  font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
   color: #fff;
-  max-width: 200px;
+  max-width: 200px;     
+  line-height: 30px;                    
   text-overflow: ellipsis;
   white-space: nowrap;
-  overflow: hidden;
-  letter-spacing: 2px;
-  margin-top: 2px;
+  overflow: hidden;                       
+  padding-left: 1px;            
 }
 
 .content__video-card-description{
@@ -309,15 +306,13 @@ body{
   line-height: 16.2px;
   color: #fff;
   word-break: break-word;
-  word-wrap: break-word;
-  padding-right: 10px;
-  margin-top: 3px; 
+  word-wrap: break-word;  
+  padding-top: 5px;                           
 }
 
 .content__video-card-thumbnail{
-  min-width: 194px;
-  height: 98px;  
-  margin: 3px 6px; 
+  min-width: 192px;  
+  height: 109px;    
   object-fit: cover;
   object-position: center;
 }
